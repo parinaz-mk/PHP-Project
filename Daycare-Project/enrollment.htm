@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+		Author: Parinaz Malek
+		Date : 2020-05-15
+		-->
+		<meta name = "author" contact="Parinaz Malek"/>
+		<meta name= "descreption" contact = "A site for Child Care"/>
+		<meta name="keywords" content = "Child Care,Garderie,Daycare"/>
+		<title>Daycare | Child Care | Garderie</title>
+		<link href="css/pageformat.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<img src="img/logo.png" width=1330 height=332 alt="Child Care" usemap="#logomap" style="border-width: 0" />
+		<map id = "logomap" name="logomap">
+			<area shape="rect" coords="185, 290, 250, 332" href="main.htm" alt="Home"/>
+			<area shape="rect" coords="280, 290, 365, 332" href="about.htm" alt="About Us"/>
+			<area shape="rect" coords="400, 290, 480, 332" href="program.htm" alt="Programs"/>
+			<area shape="rect" coords="520, 290, 575, 332" href="tution.htm" alt="Tution"/>
+			<area shape="rect" coords="610, 290, 705, 332" href="enrollment.htm" alt="Enrollment"/>
+			<area shape="rect" coords="740, 290, 820, 332" href="nutrition.htm" alt="Nutrition"/>
+			<area shape="rect" coords="855, 290, 920, 332" href="gallery.htm" alt="Gallery"/>
+			<area shape="rect" coords="955, 290, 1020, 332" href="contact.htm" alt="Contact Us"/>
+			<area shape="rect" coords="1055, 290, 1120, 332" href="php/product.php" alt="product"/>
+			<area shape="rect" coords="1155, 290, 1220, 332" href="register.htm" alt="sign up"/>
+			<area shape="rect" coords="1255, 290, 1300, 332" href="php/cart.php" alt="sign up"/>
+			
+		</map>
+	    <div class="bodyContent">
+			<p>
+				The online inscription is not a waiting list. If you're not ready to 
+				reserve your spot and you would like to visit our daycare, please take an appoinrment with the <a href="contact.htm" >contact link </a>
+				or send us an<a href="mailto:cilcare@littleTreasures.com"> e-mail.</a> Thank you!</p>
+			<h3>Childcare registration contract</h3>
+			<form name="RegistrationForm" id="RegistrationForm" method="post" action="php/enrollment.php"">
+				<fieldset id="Informations">
+					<legend><b>Informations</b></legend>
+					<label class="labelblock">At which day care center do you want to register your child?
+						<span>*</span>
+						<select name="daycare" value="">
+							<option value="" selected="selected">-- Choose daycare --</option>
+							<option value="1">God Little Treasures montreal</option>
+							<option value="2">God Little Treasures longueuil</option>
+							<option value="3">God Little Treasures St-Hubert</option>
+						</select>
+					</label>
+					<label class="labelblock">Expected entry date (DD/MM/YY):
+						<span>*</span>
+						<select name="day" value="">
+							<option selected="selected" >-- Day --</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>								
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+						<select name="month">
+							<option selected="selected">-- Month --</option>
+							<option value="1">January</option>
+							<option value="2">February</option>
+							<option value="3">Mars</option>
+							<option value="4">Avril</option>
+							<option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+						</select>
+						<select name="year">
+							<option value="" selected="selected">-- Year --</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2021">2022</option>
+						</select>
+					</label>
+				</fieldset>
+				<fieldset id="childInfo">
+					<legend><b>The child</b></legend>
+					<label class="labelblock">child's name
+						<span>*</span>
+						<input type="text" id="childname" name="childname" placeholder="Child's name" maxlength="50"/>
+					</label>
+					<label class="labelblock">Date of birth (DD/MM/YY):
+						<span>*</span>
+						<select name="birthday-day" value=''>
+							<option selected="selected">-- Day --</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>								
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+						<select name="birthday-month">
+							<option selected="selected">-- Month --</option>
+							<option value="1">January</option>
+							<option value="2">February</option>
+							<option value="3">Mars</option>
+							<option value="4">Avril</option>
+							<option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+						</select>
+						<select name="birthday-year">
+							<option value="" selected="selected">-- Year --</option>
+							<option value="2014">2014</option>
+							<option value="2015">2015</option>
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2020">2021</option>
+						</select>
+					</label>
+					<label>Insurance Card:
+						<span>*</span>
+						<input type="text" id="Insurance" name="insurance" placeholder="Child's medicare number" maxlength="50"/>
+					</label>
+				</fieldset>
+				<fieldset id="parentInfo">
+					<legend><b>Responsible parent or guardian</b></legend>
+					<label class="labelblock">First Name<span>*</span><input type="text" name="fname" placeholder="First Name" maxlength="30"/></label>
+					<label class="labelblock">Last Name<span>*</span><input type="text" name="lname" placeholder="Last Name" maxlength="30"/></label>
+					<label class="labelblock">Phone<span>*</span><input type="text" name="phone" placeholder="Mobile or home phone number" maxlength="10"/></label>
+					<label class="indenlable">Address<span>*</span><input type="text" id="sadd" name="sadd" placeholder="Street Address" maxlength="150"/></label>
+					<label class="indenlable"><input type="text" id="city" name="city" placeholder=" City" maxlength="10"/></label>
+					<label class="indenlable"><input type="text" id="state" name="state" placeholder="state" maxlength="2"/></label>
+					<label class="indenlable"><input type="text" id="postal"  name="postal" placeholder="Postal code" maxlength="10"/></label>
+					<label class="labelblock">Social insurance <span>*</span><input type="text" id="nas" name="nas"  placeholder="Social insurance number (N.S.A.) for tax credit" maxlength="10"/></label>
+				</fieldset>
+				<fieldset>
+					<legend><b>Other responsible person</b></legend>
+					<label class="labelblock">Name<input type="text" id="name"  name="nameop" placeholder="Name" maxlength="20"/></label>
+					<label class="labelblock">Phone<input type="text" id="phone" name="phone2" placeholder="Mobile or home phone number" maxlength="10"/></label>
+					<label class="labelblock">E-mail<input type="email" id="email" name="mail" placeholder="E-mail address" maxlength="50"/></label>
+				</fieldset>
+               <fieldset name="CareRequired">
+                  <legend><b>Care Required</b></legend>
+					<label class="labelblock">Which department would you like to register?
+						<span>*</span>
+						<select name="department" value="">
+							<option value="" selected="selected">-- Choose a department --</option>
+							<option value="1">A. FULL DAY - INFANTS, TODDLERS, AND PRESCHOOLERS</option>
+							<option value="2">B. KINDERGARTEN</option>
+							<option value="3">C. SCHOOL AGE WITHOUT LUNCH</option>
+							<option value="4">D. FULL DAY – SCHOOL AGE CHILDREN</option>
+						</select>
+					</label>
+               </fieldset>
+				<fieldset>
+					<legend><b>Any other Comment</b></legend>
+					<label>Comments<br/>
+						<textarea name="comment" id="comment" placeholder="If you want more information please let us know via contact form" rows="4" cols="60"></textarea>
+					</label>
+				</fieldset>
+				<input type="submit" value="Submit" id="submitbutton"/>
+				<input type="reset" value="Cancel" id="cancelbutton"/>
+			</form>
+		</div>
+		<div class="footerPnl">
+			<ul>
+				<li><a href="main.htm" target="window">Home</a></li>
+				<li><a href="about.htm" target="window">About Us</a></li>
+				<li><a href="program.htm" target="window">Programs</a></li>
+				<li><a href="tution.htm" target="window">Tution</a></li>
+				<li><a href="enrollment.htm" target="window">Enrollment</a></li>
+				<li><a href="nutrition.htm" target="window">Nutrition</a></li>
+				<li><a href="gallery.htm" target="window">Gallery</a></li>
+				<li><a href="contact.htm" target="window">Contact Us</a></li>
+				<li><a href="php/product.php" target="window">Product</a></li>
+				<li><a href="register.htm" target="window">Sign Up</a></li>
+				<li><a href="php/cart.php" target="window">checkout</a></li>
+
+			</ul>
+		</div>
+		<footer>&copy; Copyright 2020 God’s Little Treasures</footer>
+		<br/>		
+	</body>
+</html>

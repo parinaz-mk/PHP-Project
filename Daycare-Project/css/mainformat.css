@@ -1,0 +1,46 @@
+/*
+   Daycare Project on HTML 5th Edition
+   Tutorial 3
+   Review Assignment
+
+   Author: Parinaz Malek
+   Date:   2020-05-06
+
+   Filename:         mainformat.css
+
+*/
+body{font:normal Arial,Helvetica,sans-serif;background-color:#a8c6d1}
+
+p {text-align:justify;}
+
+h1{color:#1c5d9d}
+
+a{text-decoration:none;color:#1c5d9d}
+
+b{color:red}
+
+#leftside {float:left;width:850px;padding:20px 30px;background:#fff;border-radius:15px}
+
+#rightside {float:right;width:418px;border-radius:15px;}
+
+.panel{ float:left; width:424px;  position:relative;margin:0 10px 0 10px ;}
+img.panelIcon{ position:absolute; left:50%; top:0; margin-left:-120px; z-index:9; width:170px; height:auto; }
+.panelTxt{ float:left; width:310px; height:200px; margin:80px 0 0; padding:70px 30px 30px; background:#fff; border-radius:15px;  }
+.panelTxt p{font:18px/25px proxima_nova_rgregular; padding:0 0 20px }
+
+
+.contactPnl{ float:left; width:100%; background:url(../img/panel.png) repeat-x 0 0; height:165px; padding:5px 0; margin:15px 0 10px 0 ;border-radius:15px }
+.contactPnl h3{ color:#fff; font-size:12pt ; padding:0 0 0 20px ; margin:0px }
+.contactPnl p{ color:#fff; font-size:12pt; padding:0 0 0 5px;margin:0px; }
+.contactPnl form{color:#fff; font-size:13pt; padding:0 0 0 20px; }
+
+.footerPnl{float:left;width:100%;height:50px;background:#1c5d9d;border-radius:15px; }
+.footerPnl ul{float:left;margin:0;padding:0 14px 0 0;}
+.footerPnl ul li{float:left;list-style:none;height:50px;padding:0 14px 0 0;margin:0;}
+.footerPnl ul li a{font:14px/50px open_sansregular;color:#fff;padding:0 0 0 14px;display:block;text-decoration:null;}
+
+footer {float:left;font:14px/50px open_sansregular;color:#fff;}
+
+.input-group {display: block; position: relative; margin: 10px 0px 10px 0px;}
+.input-group input {height: 15px;width: 15%;padding: 5px 10px;border-radius: 5px;border: 1px solid #494949;position: absolute;left: 160px;}
+
